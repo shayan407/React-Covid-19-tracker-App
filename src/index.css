@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    font-family: Space Grotesk;
+    background-color: #ee6c4d;
+}
+.dropdown{
+    position: relative;
+    width: 50%;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 20px;
+    }
+    .container .data-div{
+        width: 48%;
+        align-items: center
+    }
+    .dropdown{
+        width: 70%;
+    }
+}
+@media (max-width: 767px) {
+    .container .data-div{
+        width: 100%;
+        /* align-items: center */
+    }
+    .dropdown{
+        width: 70%;
+    }
+}
+
+@import "tailwindcss";
