@@ -1,8 +1,8 @@
 import React from 'react'
-import GlobalCases from './globalDataComps/globalCases'
-import GlobalActiveCases from './globalDataComps/globalActiveCases'
-import GlobalRecoveredCases from './globalDataComps/globalRecoveredCases'
-import GlobalFatalities from './globalDataComps/globalFatalities'
+import GlobalCases from './globalDataComps/GlobalCases'
+import GlobalActiveCases from './globalDataComps/GlobalActiveCases'
+import GlobalRecoveredCases from './globalDataComps/GlobalRecoveredCases'
+import GlobalFatalities from './globalDataComps/GlobalFatalities'
 
 const GlobalData = () => {
   return (
